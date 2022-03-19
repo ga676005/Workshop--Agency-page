@@ -1,0 +1,86 @@
+:root {
+  --clr-primary: hsl(160deg, 100%, 30%);
+  --clr-secondary-lighter: hsl(45deg, 100%, 50%);
+  --clr-secondary-darker: hsl(45deg, 100%, 40%);
+  --clr-black: hsl(0deg, 0%, 0%);
+  --clr-very-dark: hsl(0deg, 0%, 10%);
+  --clr-dark: hsl(0deg, 0%, 30%);
+  --clr-medium: hsl(0deg, 0%, 40%);
+  --clr-light: hsl(0deg, 0%, 60%);
+  --clr-white: hsl(0deg, 0%, 100%);
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+  --space-7: 96px;
+  --space-8: 128px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Add styles here! */
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
+strong {
+  color: var(--clr-primary);
+}
+
+header {
+  border-bottom: var(--space-1) solid var(--clr-dark);
+}
+
+main {
+  background: var(--clr-light);
+}
+
+.max-width-wrapper {
+  max-width: 690px;
+  margin: 0 auto;
+  padding-top: var(--space-6);
+  padding-bottom: var(--space-6);
+}
+
+.max-width-wrapper p {
+  font-weight: 600;
+}
+
+.intro-chunk,
+.card {
+  padding-left: var(--space-3);
+  padding-right: var(--space-3);
+}
+
+.intro-chunk p {
+  max-width: 340px;
+}
+
+.card {
+  background: white;
+  padding-top: var(--space-1);
+  padding-bottom: var(--space-1);
+}
+
+.indented-heading {
+  max-width: max-content;
+  padding: var(--space-2);
+  margin-left: calc(var(--space-4) * -1);
+  margin-top: 0;
+  background: var(--clr-secondary-lighter);
+  border-bottom: var(--space-1) solid var(--clr-secondary-darker);
+}
