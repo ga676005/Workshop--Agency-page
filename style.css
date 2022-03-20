@@ -16,6 +16,7 @@
   --space-6: 64px;
   --space-7: 96px;
   --space-8: 128px;
+  --border-b-1: var(--space-1) solid var(--clr-medium);
 }
 
 * {
@@ -42,7 +43,7 @@ strong {
 }
 
 header {
-  border-bottom: var(--space-1) solid var(--clr-dark);
+  border-bottom: var(--border-b-1);
 }
 
 main {
@@ -74,6 +75,7 @@ main {
   background: white;
   padding-top: var(--space-1);
   padding-bottom: var(--space-1);
+  border-bottom: var(--border-b-1);
 }
 
 .indented-heading {
