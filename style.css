@@ -29,6 +29,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  font-size: 1.1rem;
 }
 
 /* Add styles here! */
@@ -58,7 +59,7 @@ main {
 }
 
 .max-width-wrapper p {
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .intro-chunk,
@@ -84,5 +85,7 @@ main {
   margin-left: calc(var(--space-4) * -1);
   margin-top: 0;
   background: var(--clr-secondary-lighter);
-  border-bottom: var(--space-1) solid var(--clr-secondary-darker);
+
+  border-bottom: var(--border-b-1);
+  border-color: var(--clr-secondary-darker);
 }
