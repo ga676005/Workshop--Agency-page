@@ -78,7 +78,7 @@ main {
 
 .indented-heading {
   max-width: max-content;
-  padding: var(--space-2);
+  padding: var(--space-2) var(--space-4);
   margin-left: calc(var(--space-4) * -1);
   margin-top: 0;
   background: var(--clr-secondary-lighter);
